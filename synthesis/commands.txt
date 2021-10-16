@@ -1,0 +1,12 @@
+to download visual c++ builder:
+	https://download.microsoft.com/download/5/f/7/5f7acaeb-8363-451f-9425-68a90f98b238/visualcppbuildtools_full.exe
+
+activate tensorflow
+
+cd face3d/mesh/cython
+
+run - "python setup.py build_ext -i"
+
+cd synthesis
+
+run - "python synthesis.py -i input/* -o output"
